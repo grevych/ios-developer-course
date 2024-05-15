@@ -90,6 +90,11 @@ struct MapViewSelection: View{
             locationManager.pickedLocation = nil
             locationManager.pickedPlaceMark = nil
             locationManager.mapView.removeAnnotations(locationManager.mapView.annotations)
+            locationManager.location = nil
+            locationManager.name = ""
+            locationManager.city = ""
+            locationManager.isLoading = false
+            weatherManager.weatherData = nil
         }
     }
 }

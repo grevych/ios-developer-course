@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C5D5F102BF3BFD8006A7DDF /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 7C5D5F0F2BF3BFD8006A7DDF /* BottomSheet */; };
 		CA5D637029EEEC93000573A4 /* MarvelWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5D636F29EEEC93000573A4 /* MarvelWeatherApp.swift */; };
 		CA5D637229EEEC93000573A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5D637129EEEC93000573A4 /* ContentView.swift */; };
 		CA5D637429EEEC94000573A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5D637329EEEC94000573A4 /* Assets.xcassets */; };
@@ -33,7 +34,6 @@
 		CA5D63B129EEF5B7000573A4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5D63B029EEF5B6000573A4 /* Extensions.swift */; };
 		CA5D63B329EEF5E1000573A4 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5D63B229EEF5E1000573A4 /* Shapes.swift */; };
 		CA5D63B529EEF601000573A4 /* ReverseMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5D63B429EEF601000573A4 /* ReverseMask.swift */; };
-		CA8CD1E529EEFB7100FB4F2B /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = CA8CD1E429EEFB7100FB4F2B /* BottomSheet */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA8CD1E529EEFB7100FB4F2B /* BottomSheet in Frameworks */,
+				7C5D5F102BF3BFD8006A7DDF /* BottomSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +224,7 @@
 			);
 			name = MarvelWeather;
 			packageProductDependencies = (
-				CA8CD1E429EEFB7100FB4F2B /* BottomSheet */,
+				7C5D5F0F2BF3BFD8006A7DDF /* BottomSheet */,
 			);
 			productName = MarvelWeather;
 			productReference = CA5D636C29EEEC93000573A4 /* MarvelWeather.app */;
@@ -255,7 +255,7 @@
 			);
 			mainGroup = CA5D636329EEEC93000573A4;
 			packageReferences = (
-				CA8CD1E329EEFB7100FB4F2B /* XCRemoteSwiftPackageReference "BottomSheet" */,
+				7C5D5F0E2BF3BFD8006A7DDF /* XCRemoteSwiftPackageReference "BottomSheet" */,
 			);
 			productRefGroup = CA5D636D29EEEC93000573A4 /* Products */;
 			projectDirPath = "";
@@ -509,7 +509,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CA8CD1E329EEFB7100FB4F2B /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+		7C5D5F0E2BF3BFD8006A7DDF /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Wouter125/BottomSheet";
 			requirement = {
@@ -520,9 +520,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CA8CD1E429EEFB7100FB4F2B /* BottomSheet */ = {
+		7C5D5F0F2BF3BFD8006A7DDF /* BottomSheet */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CA8CD1E329EEFB7100FB4F2B /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			package = 7C5D5F0E2BF3BFD8006A7DDF /* XCRemoteSwiftPackageReference "BottomSheet" */;
 			productName = BottomSheet;
 		};
 /* End XCSwiftPackageProductDependency section */
