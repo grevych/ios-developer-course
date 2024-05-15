@@ -12,11 +12,20 @@
 		7C5D5F0B2BF3BCF0006A7DDF /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5D5F082BF3BCF0006A7DDF /* Poppins-Regular.ttf */; };
 		7C5D5F0C2BF3BCF0006A7DDF /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5D5F092BF3BCF0006A7DDF /* Poppins-Bold.ttf */; };
 		7C5D5F0D2BF3BCF0006A7DDF /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5D5F0A2BF3BCF0006A7DDF /* Poppins-MediumItalic.ttf */; };
+		7C5D5F1F2BF51309006A7DDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5D5F1E2BF51309006A7DDF /* Images.xcassets */; };
+		7C5D5F212BF5131F006A7DDF /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5D5F202BF5131F006A7DDF /* Colors.xcassets */; };
+		7C5D5F802BF5181A006A7DDF /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7C5D5F7F2BF5181A006A7DDF /* FirebaseStorage */; };
+		7C5D5F8B2BF56FF6006A7DDF /* HomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D5F8A2BF56FF6006A7DDF /* HomeworkViewController.swift */; };
+		7C5D5F8D2BF5701A006A7DDF /* HorizontalCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D5F8C2BF5701A006A7DDF /* HorizontalCollectionView.swift */; };
+		7C5D5F8F2BF57034006A7DDF /* ParentCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D5F8E2BF57034006A7DDF /* ParentCollectionView.swift */; };
+		7C5D5F912BF57060006A7DDF /* InnerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D5F902BF57060006A7DDF /* InnerCollectionViewCell.swift */; };
+		7C5D5F932BF57A14006A7DDF /* RegularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D5F922BF57A14006A7DDF /* RegularCollectionViewCell.swift */; };
+		7C5D5F952BF57A4B006A7DDF /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5D5F942BF57A4B006A7DDF /* UICollectionViewCell.swift */; };
 		7CEC001A2BF0FCF900C29F36 /* Course_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEC00192BF0FCF900C29F36 /* Course_AppUITests.swift */; };
 		7CEC001C2BF0FCF900C29F36 /* Course_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEC001B2BF0FCF900C29F36 /* Course_AppUITestsLaunchTests.swift */; };
 		7CEC00292BF0FD2100C29F36 /* Course_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEC00282BF0FD2100C29F36 /* Course_AppTests.swift */; };
 		7CEC00402BF1051F00C29F36 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEC003F2BF1051F00C29F36 /* Configuration.swift */; };
-		7CECFFEA2BDD7B4000C29F36 /* Course_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CECFFE92BDD7B4000C29F36 /* Course_AppApp.swift */; };
+		7CECFFEA2BDD7B4000C29F36 /* CourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CECFFE92BDD7B4000C29F36 /* CourseApp.swift */; };
 		7CECFFEC2BDD7B4000C29F36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CECFFEB2BDD7B4000C29F36 /* ContentView.swift */; };
 		7CECFFEE2BDD7B4200C29F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CECFFED2BDD7B4200C29F36 /* Assets.xcassets */; };
 		7CECFFF12BDD7B4200C29F36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CECFFF02BDD7B4200C29F36 /* Preview Assets.xcassets */; };
@@ -40,9 +49,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7C5D5F082BF3BCF0006A7DDF /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../Sources/Poppins-Regular.ttf"; sourceTree = "<group>"; };
-		7C5D5F092BF3BCF0006A7DDF /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../Sources/Poppins-Bold.ttf"; sourceTree = "<group>"; };
-		7C5D5F0A2BF3BCF0006A7DDF /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-MediumItalic.ttf"; path = "../../../Sources/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		7C5D5F082BF3BCF0006A7DDF /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		7C5D5F092BF3BCF0006A7DDF /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		7C5D5F0A2BF3BCF0006A7DDF /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		7C5D5F1E2BF51309006A7DDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7C5D5F202BF5131F006A7DDF /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		7C5D5F8A2BF56FF6006A7DDF /* HomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkViewController.swift; sourceTree = "<group>"; };
+		7C5D5F8C2BF5701A006A7DDF /* HorizontalCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionView.swift; sourceTree = "<group>"; };
+		7C5D5F8E2BF57034006A7DDF /* ParentCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentCollectionView.swift; sourceTree = "<group>"; };
+		7C5D5F902BF57060006A7DDF /* InnerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerCollectionViewCell.swift; sourceTree = "<group>"; };
+		7C5D5F922BF57A14006A7DDF /* RegularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularCollectionViewCell.swift; sourceTree = "<group>"; };
+		7C5D5F942BF57A4B006A7DDF /* UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
 		7CEC00172BF0FCF900C29F36 /* Course AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Course AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CEC00192BF0FCF900C29F36 /* Course_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course_AppUITests.swift; sourceTree = "<group>"; };
 		7CEC001B2BF0FCF900C29F36 /* Course_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -53,7 +70,7 @@
 		7CEC003E2BF1044900C29F36 /* Course-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Course-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		7CEC003F2BF1051F00C29F36 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		7CECFFE62BDD7B4000C29F36 /* App Course Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Course Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CECFFE92BDD7B4000C29F36 /* Course_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course_AppApp.swift; sourceTree = "<group>"; };
+		7CECFFE92BDD7B4000C29F36 /* CourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseApp.swift; sourceTree = "<group>"; };
 		7CECFFEB2BDD7B4000C29F36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7CECFFED2BDD7B4200C29F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CECFFF02BDD7B4200C29F36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -80,12 +97,75 @@
 			files = (
 				7C5D5F052BF3B4D0006A7DDF /* FirebaseAuth in Frameworks */,
 				7C5D5F072BF3B4D0006A7DDF /* FirebaseFirestore in Frameworks */,
+				7C5D5F802BF5181A006A7DDF /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C5D5F112BF5111C006A7DDF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7C5D5F122BF5114B006A7DDF /* DataAPI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataAPI;
+			sourceTree = "<group>";
+		};
+		7C5D5F132BF51160006A7DDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7C5D5F142BF51167006A7DDF /* Fonts */,
+				7C5D5F1E2BF51309006A7DDF /* Images.xcassets */,
+				7C5D5F202BF5131F006A7DDF /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7C5D5F142BF51167006A7DDF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7C5D5F092BF3BCF0006A7DDF /* Poppins-Bold.ttf */,
+				7C5D5F0A2BF3BCF0006A7DDF /* Poppins-MediumItalic.ttf */,
+				7C5D5F082BF3BCF0006A7DDF /* Poppins-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7C5D5F152BF51172006A7DDF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7C5D5F892BF56FE1006A7DDF /* UIKit */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7C5D5F7E2BF5181A006A7DDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C5D5F892BF56FE1006A7DDF /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7C5D5F8A2BF56FF6006A7DDF /* HomeworkViewController.swift */,
+				7C5D5F8C2BF5701A006A7DDF /* HorizontalCollectionView.swift */,
+				7C5D5F8E2BF57034006A7DDF /* ParentCollectionView.swift */,
+				7C5D5F902BF57060006A7DDF /* InnerCollectionViewCell.swift */,
+				7C5D5F922BF57A14006A7DDF /* RegularCollectionViewCell.swift */,
+				7C5D5F942BF57A4B006A7DDF /* UICollectionViewCell.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		7CEC00182BF0FCF900C29F36 /* Course AppUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +200,7 @@
 				7CEC00182BF0FCF900C29F36 /* Course AppUITests */,
 				7CEC00272BF0FD2100C29F36 /* Course AppTests */,
 				7CECFFE72BDD7B4000C29F36 /* Products */,
+				7C5D5F7E2BF5181A006A7DDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,11 +217,12 @@
 		7CECFFE82BDD7B4000C29F36 /* Course App */ = {
 			isa = PBXGroup;
 			children = (
-				7C5D5F092BF3BCF0006A7DDF /* Poppins-Bold.ttf */,
-				7C5D5F0A2BF3BCF0006A7DDF /* Poppins-MediumItalic.ttf */,
-				7C5D5F082BF3BCF0006A7DDF /* Poppins-Regular.ttf */,
+				7C5D5F132BF51160006A7DDF /* Resources */,
+				7C5D5F152BF51172006A7DDF /* Views */,
+				7C5D5F122BF5114B006A7DDF /* DataAPI */,
+				7C5D5F112BF5111C006A7DDF /* Common */,
 				7CEC003E2BF1044900C29F36 /* Course-App-Info.plist */,
-				7CECFFE92BDD7B4000C29F36 /* Course_AppApp.swift */,
+				7CECFFE92BDD7B4000C29F36 /* CourseApp.swift */,
 				7CECFFEB2BDD7B4000C29F36 /* ContentView.swift */,
 				7CECFFED2BDD7B4200C29F36 /* Assets.xcassets */,
 				7CECFFEF2BDD7B4200C29F36 /* Preview Content */,
@@ -213,6 +295,7 @@
 			packageProductDependencies = (
 				7C5D5F042BF3B4D0006A7DDF /* FirebaseAuth */,
 				7C5D5F062BF3B4D0006A7DDF /* FirebaseFirestore */,
+				7C5D5F7F2BF5181A006A7DDF /* FirebaseStorage */,
 			);
 			productName = "Course App";
 			productReference = 7CECFFE62BDD7B4000C29F36 /* App Course Dev.app */;
@@ -287,8 +370,10 @@
 				7C5D5F0B2BF3BCF0006A7DDF /* Poppins-Regular.ttf in Resources */,
 				7CECFFF12BDD7B4200C29F36 /* Preview Assets.xcassets in Resources */,
 				7CECFFEE2BDD7B4200C29F36 /* Assets.xcassets in Resources */,
+				7C5D5F1F2BF51309006A7DDF /* Images.xcassets in Resources */,
 				7C5D5F0C2BF3BCF0006A7DDF /* Poppins-Bold.ttf in Resources */,
 				7C5D5F0D2BF3BCF0006A7DDF /* Poppins-MediumItalic.ttf in Resources */,
+				7C5D5F212BF5131F006A7DDF /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +403,13 @@
 			files = (
 				7CEC00402BF1051F00C29F36 /* Configuration.swift in Sources */,
 				7CECFFEC2BDD7B4000C29F36 /* ContentView.swift in Sources */,
-				7CECFFEA2BDD7B4000C29F36 /* Course_AppApp.swift in Sources */,
+				7C5D5F8F2BF57034006A7DDF /* ParentCollectionView.swift in Sources */,
+				7C5D5F932BF57A14006A7DDF /* RegularCollectionViewCell.swift in Sources */,
+				7C5D5F912BF57060006A7DDF /* InnerCollectionViewCell.swift in Sources */,
+				7C5D5F952BF57A4B006A7DDF /* UICollectionViewCell.swift in Sources */,
+				7C5D5F8B2BF56FF6006A7DDF /* HomeworkViewController.swift in Sources */,
+				7CECFFEA2BDD7B4000C29F36 /* CourseApp.swift in Sources */,
+				7C5D5F8D2BF5701A006A7DDF /* HorizontalCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -919,7 +1010,7 @@
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 10.26.0;
+				minimumVersion = 10.25.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -939,6 +1030,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7C5D5F032BF3B4D0006A7DDF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		7C5D5F7F2BF5181A006A7DDF /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C5D5F032BF3B4D0006A7DDF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
